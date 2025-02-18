@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: inter;
+    src: url(/social-links-profile-main/assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: inter2;
+    src: url(/social-links-profile-main/assets/fonts/static/Inter-Bold.ttf);
+}
+
+html, body {
+    height: 100%; 
+    margin: 0;    
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-color: rgb(17, 17, 17);
+    font-family: inter;  
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    right: 3px;
+    top: 2px;
+    height: 500px;
+    width: 550px;
+    padding: 300px;
+    background-color: rgb(32, 32, 32);
+    border-radius: 15px;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: inter;
+    color: aliceblue;
+}
+
+p{
+    margin-left: -20px;
+    white-space: nowrap;
+    padding-top: 20px;
+    color: aliceblue;
+    font-family: inter;
+}
+
+h4{
+    color: rgb(172, 224, 52);
+    padding: 5px;
+}
+img{
+    margin-left: 55px;
+    padding: 20px;
+    border-radius: 100px;
+    height: 100px;
+}
+
+.link{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vw;
+}
+
+button{
+    padding: 10px;
+    width: 75vw;
+    height: 10vw;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: rgb(61, 61, 61);
+    color: aliceblue;
+    border: none;
+    font-family: inter2;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    transition: 0.2s;
+    background-color: rgb(22, 22, 22);
+}
+.link button:last-child {
+    margin-bottom: 0;
+}
+
+@media (min-width:1000px) {
+    .container{ 
+       height: 200px;
+       width: 80px;
+       
+    }
+
+    button{
+       height: 50px;
+       width: 400px;
+    }
+
+    .cont{
+    
+        white-space: nowrap;
+        text-align: center;
+    }
+
+    img{
+        position: relative;
+        margin-top: 40px;
+        margin-left: -5px;
+        height: 80px;
+        padding: 25px;
+    }
+
+    h1, p{
+
+        margin-left: -65px;
+    
+    }
+    
+    h4{
+        margin-left: -40px;
+    }
+    .top{
+        
+        margin-left: -25px;
+    }
+   
+}
